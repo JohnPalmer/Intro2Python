@@ -1,0 +1,48 @@
+---
+title: "Introduction to Python"
+subtitle: "For Statistical Analysis"
+author: "John Palmer"
+date: "November 15, 2019"
+output: 
+  revealjs::revealjs_presentation:
+    theme: beige
+    highlight: pygments
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducing Python
+
+## What is Python?
+
+- Python is an interpreted, high-level, general-purpose programming language
+- Created by Guido van Rossum and first released in 1991
+- Design philosophy emphasizes code readability; uses language constructs and object-oriented approach to help programmers write clear, logical code for small and large-scale projects
+- Official home page is https://www.python.org/
+
+## Python is Open Source Software
+
+- Current versions are compatible with GPL
+- Users have the freedom to run, copy, distribute, study, change and improve Python
+- Also free in terms of price
+
+## Python Packages
+
+- Like R, one of the powerful thing about Python is the enormous ecosystem of packages that people have written for it
+- A package is a bundle of code, often along with data, documentation and tests, which runs in Python and can be shared
+- In Python, packages are grouped into modules, which can be imported separately or altogether
+- You can install Python packages using conda and pip
+
+
+## Installing Python
+
+- You should already have it installed, but if not, follow the instructions at https://www.anaconda.com/distribution/
+
+## Upgrading Python and Managing Versions
+
+- One advantage of using Anaconda is that you can set up different environments that use specific versions of Python as well as specific versions of various Python packages
+
+
+
